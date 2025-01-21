@@ -1,6 +1,6 @@
 # jsPaginator
 ## Description 
-jspaginator is an open-source, lightweight JavaScript library for creating paginated tables. Designed as an alternative to heavy libraries like DataTables, it offers a reduced size, no external dependencies, and extensive configuration options for a seamless developer experience.
+jspaginator is an open-source, lightweight JavaScript library for creating paginated tables or any items. Designed as an alternative to heavy libraries like DataTables, it offers a reduced size, no external dependencies, and extensive configuration options for a seamless developer experience.
 Its small footprint ~6KB ensures rapid loading times and makes it particularly suited for projects where performance and simplicity are paramount.
 
 ## Features
@@ -22,6 +22,40 @@ npm i @skriptx2/jspaginator
 ```
 
 ## Demos
+
+### Vanilla html
+
+Load your script file with type =  module
+
+```html
+
+<script type="module" src="./script.js"></script>
+
+```
+
+use **jspaginator.module.js** file to import paginator
+
+```js
+
+import { Paginator} from '../assets/jspaginator.module.js';
+
+```
+#### Live Example
+
+https://stackblitz.com/edit/jspaginator-vanillahtml?file=index.html
+
+### React JS
+
+https://stackblitz.com/edit/jspaginator-react?embed=1&file=src%2FApp.tsx
+
+### Angular Example
+
+https://stackblitz.com/edit/jspaginator-angular?embed=1&file=src%2Fmain.ts
+
+
+### Vue Example
+
+https://stackblitz.com/edit/jspaginator-vue?embed=1&file=src%2Fcomponents%2FTable.vue
 
 ## Config Options
 ```js

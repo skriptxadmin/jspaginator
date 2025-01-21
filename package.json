@@ -1,6 +1,6 @@
 {
   "name": "@skriptx2/jspaginator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "source": "src/index.ts",
   "main": "dist/jspaginator.js",
   "browser": "dist/jspaginator.umd.js",
