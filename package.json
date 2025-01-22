@@ -1,6 +1,6 @@
 {
   "name": "@skriptx2/jspaginator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "source": "src/index.ts",
   "main": "dist/jspaginator.js",
   "browser": "dist/jspaginator.umd.js",
@@ -14,15 +14,47 @@
 			"optimize": true
 		}
    },
+   "repository": {
+    "type":"git",
+    "url":"https://github.com/skriptxadmin/jspaginator"
+  },
+  "bugs": {
+    "url": "https://github.com/skriptxadmin/jspaginator/issues"
+  },
+  "homepage": "https://github.com/skriptxadmin/jspaginator/blob/main/Readme.md",
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel watch",
     "build": "parcel build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["css",
+  "grid",
+  "responsive",
+  "vanilla",
+  "lightweight",
+  "minimalist",
+  "frontend",
+  "layout",
+  "datatables",
+  "uigrid",
+  "paginator",
+  "web design",
+"pagination",
+    "vanilla-js",
+    "javascript",
+    "frontend",
+    "ui-library",
+    "pagination-library",
+    "list-pagination",
+    "framework-agnostic",
+    "jspaginator",
+    "custom-pagination",
+    "component-library"],
+"author": "Alaksandar Jesus Gene AMS",
+"license": "MIT",
+"description": "A lightweight and flexible Vanilla JavaScript library for adding pagination to any list of items. Compatible with any frameworks or standalone projects.",
+
   "devDependencies": {
     "@parcel/packager-ts": "^2.13.3",
     "@parcel/transformer-typescript-types": "^2.13.3",
